@@ -24,6 +24,7 @@
                 padding: 10px;
             }
             td{
+                color: white;
                 width: 100px;
             }
         </style>
@@ -95,21 +96,20 @@
                                <button id="create">Create Key</button>    
                                  </td>
                              </tr>
-                             <tr>
+                             
+                             <tr >
                                  <td>
                                      
                                  </td>
                                  <td>
                                      
                                  </td>
-                                 <td>
-                                    
-                                 </td>
-                                 <td>
-                                    Return To <a href="{{url('login')}}">Login </a>Page
+                                 <td></td>
+                                 <td style="width: 200px">
+                                    Return To <a style="color: yellow" href="{{url('login')}}">Login </a>Page
                                  </td>
                              </tr>
-                            
+                            <br>
                              
                          </table>
                          
