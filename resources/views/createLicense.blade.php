@@ -77,8 +77,9 @@
                                          <option active value="3">3</option>
                                          <option active value="6">6</option>
                                          <option active value="12">12</option>
-                                       </select>
+                                       </select> 
                                  </td>
+                                 <td><span >Month</span></td>
                              </tr>
                              <tr>
                                  <td>
