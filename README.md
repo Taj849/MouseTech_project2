@@ -1,4 +1,12 @@
 This is Project 2.
+
+
+
+
+
+
+
+
 1.first you have to create account
 2.copy CLient ID.click create license key button
 3.paste it client id Field.then press enter for your details
