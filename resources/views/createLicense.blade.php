@@ -24,8 +24,11 @@
                 padding: 10px;
             }
             td{
-                color: white;
+                
                 width: 100px;
+            }
+            span{
+                color:white;
             }
         </style>
     </head>
@@ -43,7 +46,8 @@
                          <table>
                              <tr>
                                  <td>
-                                     Client Id
+                                     <span>Client Id</span>
+                                     
                                  </td>
                                  <td>
                                  
@@ -52,7 +56,8 @@
                              </tr>
                              <tr>
                                  <td>
-                                     License Key
+                                     <span>License Key</span>
+                                     
                                  </td>
                                  <td>
                                      <input id="key" type="text" >
@@ -68,7 +73,8 @@
                              </tr>
                              <tr>
                                  <td>
-                                     License For
+                                     <span> License For</span>
+                                    
                                  </td>
                                  <td></td>
                                  
@@ -106,7 +112,7 @@
                                  </td>
                                  <td></td>
                                  <td style="width: 200px">
-                                    Return To <a style="color: yellow" href="{{url('login')}}">Login </a>Page
+                               <span>Return To <a style="color: yellow" href="{{url('login')}}">Login </a>Page</span>     
                                  </td>
                              </tr>
                             <br>

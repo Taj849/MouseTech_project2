@@ -30,6 +30,9 @@
         td{
             width: 100px;
         }
+        span{
+                color:white;
+            }
     </style>
 </head>
 <body>
@@ -50,7 +53,8 @@
                 <table>
                     <tr>
                         <td>
-                            License Key
+                            <span>License Key</span>
+                            
                         </td>
                         <td>
                             <input type="text" name="data" placeholder="Enter License key">
@@ -65,8 +69,20 @@
                         <td>
                             
                         </td>
+                        <td >
+                            <input style="width: 100px;" type='submit' value='Save' >
+                        </td>
+                    </tr>
+                    <tr>
                         <td>
-                            <input type='submit' value='Save' >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+                        <td style="width: 200px;">
+                            <span>Return To <a style="color: yellow" href="{{url('login')}}">Login </a>Page</span>
                         </td>
                     </tr>
                 </table>
